@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/bvala/OneDrive/Documents/projects/TenderVioletStudio//**)",
+      "Read(//c/Users/bvala/Repos/GitHub/Tender-Violet-Studio//**)",
+      "Bash(mkdir -p \"/c/Users/bvala/Repos/GitHub/Tender-Violet-Studio/css\" \"/c/Users/bvala/Repos/GitHub/Tender-Violet-Studio/js\" \"/c/Users/bvala/Repos/GitHub/Tender-Violet-Studio/assets/img\")",
+      "Bash(cp \"/c/Users/bvala/OneDrive/Documents/projects/TenderVioletStudio/tender_violet_logo.svg\" \"/c/Users/bvala/Repos/GitHub/Tender-Violet-Studio/assets/img/logo.svg\")",
+      "Read(//c/Users/bvala/Repos/GitHub/Tender-Violet-Studio/assets/**)",
+      "Bash(touch \"/c/Users/bvala/Repos/GitHub/Tender-Violet-Studio/.nojekyll\")",
+      "Read(//c/Users/bvala/Repos/GitHub/Tender-Violet-Studio/**)",
+      "Read(//c/Users/bvala/Repos/GitHub/Tender-Violet-Studio/.claude/**)"
+    ]
+  }
+}
