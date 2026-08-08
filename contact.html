@@ -134,11 +134,19 @@
 <script src="js/main.js"></script>
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 
-<!-- Formspree contact form setup -->
+<!-- Formspree contact form setup with redirect on success -->
 <script>
   window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
   formspree('initForm', { formElement: '#contact-form', formId: 'myeggqnl' });
 </script>
 <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+
+<script>
+  // Handle form submission and redirect to thank you page
+  document.addEventListener('formspree.submit', function(e) {
+    // Redirect to thank you page after successful submission
+    window.location.href = '/thank-you.html';
+  });
+</script>
 </body>
 </html>
