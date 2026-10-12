@@ -198,6 +198,18 @@ img { max-width: 100%; display: block; }
   color: var(--color-white);
 }
 
+.btn-text {
+  background: transparent;
+  color: var(--color-primary);
+  border: none;
+  padding: 0.2rem 0.2rem;
+}
+
+.btn-text:hover {
+  background: none;
+  color: var(--color-primary-dark);
+}
+
 .btn-group {
   display: flex;
   gap: 1rem;
